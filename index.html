@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="shortcut icon" href="c.ico">
         <link rel="stylesheet" href="styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Akronim&display=swap" rel="stylesheet">
         <style>
             h1 {
                 text-align: center;
@@ -14,6 +15,7 @@
                 width: 30rem;
                 max-width: fit-content;
                 max-height: fit-content;
+                font-family: fontt;
             }
         </style>
     </head>
@@ -35,7 +37,7 @@
                 </div>
                 <div>
                 <h2 style="color:hsl(52, 74, 172)">Agenda</h2>
-                <ol>
+                <ol class="olist">
                     <li>What is the <b>Pomodoro</b> technique</li>
                     <li>Unifinished Business</li>
                     <li>New Tasks and Goals</li>
@@ -89,7 +91,7 @@
             <form>
                 <fieldset>
                     <input type="checkbox" id="checkbox">
-                    <label for="checkbox">Check here</label><br>
+                    <label id="checkboxx" for="checkbox">Check here</label><br>
                     <input type="radio" id="radio">
                     <label for="radio">Click here</label><br>
                     <input type="text" id="text">
@@ -112,7 +114,7 @@
                         <option value="CSE 105">CSE 105</option>
                         <option value="CSE 110">CSE 110</option>
                     </select><br>
-                    <button type="button">Submit form</button>
+                    <button id="submit" type="button">Submit form</button>
                 </fieldset>
             </form>
         </main>
