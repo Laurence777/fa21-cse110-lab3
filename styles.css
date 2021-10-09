@@ -51,8 +51,41 @@ a[href^="https"]:active {
   display: grid;
 }
 
+@media (width: 360px) {
+  div {
+    color: red;
+  }
+}
+
 @font-face {
   font-family: fontt;
   src: url(https://fonts.googleapis.com/css2?family=Akronim&display=swap);
 }
 
+* {
+  max-block-size: 10000px;
+}
+
+ul,li {
+  color:blue;
+}
+
+ul li {
+  padding-left: 10pt;
+}
+
+ol>li {
+  padding-left: 10pt;
+}
+
+fieldset~input {
+  color:red;
+}
+
+ul+li {
+  color:purple;
+}
+
+ol.olist {
+  max-height: 100cm;
+}
