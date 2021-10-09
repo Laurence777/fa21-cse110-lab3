@@ -5,28 +5,44 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="shortcut icon" href="c.ico">
+        <link rel="stylesheet" href="styles.css">
+        <style>
+            h1 {
+                text-align: center;
+                text-decoration: overline;
+                height: 30px;
+                width: 30rem;
+                max-width: fit-content;
+                max-height: fit-content;
+            }
+        </style>
     </head>
     <body>
         <main>
             <header>
-                <h1>Pomodoro Timer First Brainstorm</h1>
+                <h1 style="color:yellow">Pomodoro Timer First Brainstorm</h1>
                 <img src="cycle.png" alt="Pomodoro cycle" width="360" height="140">
 
                 <h2>October 1, 2021</h2>
-                <h2>Attendees</h2>
-                <ul>
-                    <li>Laurence D'Ercole</li>
-                    <li>Prof Powell</li>
-                    <li>Gary Gillespie</li>
-                    <li>Rick Ord</li>
-                </ul>
-                <h2>Agenda</h2>
+                <div>
+                <h2 style="color:rgb(0,123,100)">Attendees</h2>
+                    <ul>
+                        <li>Laurence D'Ercole</li>
+                        <li>Prof Powell</li>
+                        <li>Gary Gillespie</li>
+                        <li>Rick Ord</li>
+                    </ul>
+                </div>
+                <div>
+                <h2 style="color:hsl(52, 74, 172)">Agenda</h2>
                 <ol>
                     <li>What is the <b>Pomodoro</b> technique</li>
                     <li>Unifinished Business</li>
                     <li>New Tasks and Goals</li>
                     <li>Questions, Comments, Concerns</li>
                 </ol>
+                </div>
+                <div>
                 <h3>Unifinished Business</h3>
                 <div>From our last meeting, we discussed potential groups and group <em>members</em> for the <span></span>Pomodoro project for this quarter. So let's get together and finalize our groups</div>
                 <hr>
@@ -60,12 +76,12 @@
                     <a href="https://github.com/">Github</a> 
                   </nav>
             </details>
-            <h3>Video Recording</h3>
+            <h3 id="video">Video Recording</h3>
             <video width="320" height="240" controls>
                 <source src="Meeting_Video.mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
-            <h3>Audio Recording</h3>
+            <h3 id="audio">Audio Recording</h3>
             <audio controls>
                 <source src="Meeting_Audio.mp3" type="audio/ogg">
                 Your browser does not support the audio tag.

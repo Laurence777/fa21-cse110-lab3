@@ -1,0 +1,36 @@
+section {
+    background-color: #a0649a;
+  }
+
+body {
+  background-color: rgb(159, 145, 241);
+  border-style: double;
+  border-color:#38F2B0;
+  border-width: 5mm;
+  border-radius: 4ex;
+}
+
+
+h3 {
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  padding-left: 1cm;
+  padding-right: 10cm;
+  
+}
+
+div {
+  font-family: consolas;
+  border: 5px solid #21ad96;
+  border-radius: 25px;
+}
+
+#video {
+  position: relative;
+}
+
+#audio {
+  position: sticky;
+  
+}
+
