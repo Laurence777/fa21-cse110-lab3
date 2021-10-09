@@ -1,36 +1,58 @@
 section {
     background-color: #a0649a;
+    padding: 1mm 3cm 1mm 3cm;
   }
 
 body {
   background-color: rgb(159, 145, 241);
   border-style: double;
   border-color:#38F2B0;
-  border-width: 5mm;
+  border-width: 15px;
   border-radius: 4ex;
+}
+
+h2 {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
 
 h3 {
   padding-top: 1vh;
   padding-bottom: 1vh;
-  padding-left: 1cm;
-  padding-right: 10cm;
-  
+  padding-left: 3vw;
+  padding-right: 10vw;
 }
 
-div {
-  font-family: consolas;
-  border: 5px solid #21ad96;
-  border-radius: 25px;
-}
 
 #video {
   position: relative;
+  margin: 10mm 10mm 10mm 10mm;
 }
 
 #audio {
   position: sticky;
-  
+  margin:auto;
+  display: inline-block;
+}
+
+#submit:hover {
+  color:aqua;
+}
+
+a[href^="https"]:active {
+  color:bisque;
+}
+
+.olist {
+  display: grid;
+}
+
+@font-face {
+  font-family: fontt;
+  src: url(https://fonts.googleapis.com/css2?family=Akronim&display=swap);
 }
 
